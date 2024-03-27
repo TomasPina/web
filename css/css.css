@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Raleway:wght@300&family=Saira:wght@300&display=swap');
+
+body {
+    font-family: 'Saira', sans-serif;
+    background: linear-gradient(124deg, #0e286d80,#7139b180, #2e58ca80, #5b36c298, #4d6ec9cb, #712aceb6, #072b8db0,#7629a398,#2c458bbd);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+    
+
+.bg-light {
+    background-color: #f8f9fa00!important;
+}
+
+@media only screen and (max-width: 768px) {
+    .solo-pc {
+        display: none;
+    }
+}
+
+#topName {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    height: 200px;
+    background: rgba(5, 5, 5, 0);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#title {
+    font-size: 5vw;
+    color: rgb(39, 39, 39);
+    padding: 40px;
+    text-align: center;
+}
+
+.contenedor-flex {
+    display: flex;
+    margin-top: 10px;
+}
+
+.contenedor-blur-overlay,
+.contenedor3-blur-overlay {
+    position: relative;
+}
+
+.contenedor-blur-overlay,
+.contenedor3-blur-overlay {
+    
+    max-width: 650px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(40px); /* Ajusta el valor de desenfoque según tus necesidades */
+    border-radius: 10px;
+    border: 2px solid #4faaf586;
+    margin: 5px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.534), 0 6px 20px rgba(0, 0, 0, 0.582);
+    text-align: left;
+}
+
+#infoSobreMi,
+#infoSobreMi2 {
+    font-family: 'Exo', sans-serif;
+    margin: 20px;
+}
+
+#title2,
+#title3,
+#contacto {
+    text-align: center;
+}
+
+#title2,
+#title3 {
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+}
+
+#infoSobreMi,
+#infoSobreMi2,
+#contacto {
+    color: rgb(255, 255, 255);
+}
+
+
+  
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 80%;
+    max-width: 500px;
+    height: 30px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contacto{
+    font-size: 18px;
+}
